@@ -1,0 +1,144 @@
+/* IE10+ VIEWPORT FIX */
+@-ms-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+@media screen and (max-width: 1100px) {
+  /* services */
+  #services img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+  #services .desc {
+    float: none;
+    width: 100%;
+  }
+  /* contact */
+  #contact .col-span-4 {
+    width: 50%;
+  }
+  #contact .col-span-6 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 860px) {
+  /* services */
+  #services .desc h2 {
+    font-size: 1.5em;
+  }
+  #services .desc button {
+    font-size: 1em;
+  }
+  /* news letter */
+  #news-letter #email {
+    width: 50%;
+  }
+  /* projects */
+  #projects #projects-nav {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  #projects #projects-nav #projects-nav-menu {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: #716a72;
+    outline: none;
+  }
+  #projects #projects-nav #projects-nav-menu:hover {
+    cursor: pointer;
+  }
+  #projects #projects-nav #nav-ul {
+    position: absolute;
+    z-index: 6;
+    width: 100%;
+    border: 1px solid  #d1d1d1;
+  }
+  #projects #projects-nav .nav-open {
+    display: none;
+  }
+  #projects #projects-nav a,
+  #projects #projects-nav li {
+    display: block;
+    float: none;
+    width: 100%;
+    border-radius: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .col-span-6,
+  .col-span-4,
+  .col-span-3 {
+    width: 100%;
+  }
+  /*** ABOUT ***/
+  #left-info-section,
+  #right-info-section {
+    text-align: left;
+  }
+  #left-info-section .btn {
+    margin: 20px 0;
+  }
+  #right-info-section p {
+    width: 100%;
+  }
+  /*** SERVICES ***/
+  #services h2 {
+    margin: 4% 0 4% 0;
+    padding: 0 0 10px 0;
+  }
+  #services button {
+    margin-top: 5%;
+  }
+  #services .col-span-3 {
+    margin-bottom: 100px;
+  }
+  /*** NEWS LETTER ***/
+  #news-letter #email,
+  #news-letter #submit-btn {
+    padding: 0;
+    height: 40px;
+  }
+  #news-letter #email {
+    width: 70%;
+  }
+  /*** PROJECTS ***/
+  #projects .project {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  #left-article {
+    border-radius: 0;
+  }
+  #right-article {
+    border-radius: 0;
+  }
+  .projects-divider {
+    border-bottom: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  #contact .col-span-4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 430px) {
+  #header h1 {
+    font-size: 3em;
+  }
+  nav#main-nav a {
+    font-size: 1.3em;
+  }
+  #about #left-info-section h1 {
+    font-size: 2.2em;
+  }
+  #about #left-info-section h2 {
+    font-size: 1.5em;
+  }
+}

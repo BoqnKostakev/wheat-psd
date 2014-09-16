@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Title here</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://localhost/front-end/practice/slice03/css/style.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+	<!--[if lt IE 8]>
+		<link rel="stylesheet" href="css/lt-ie8.css">
+		<h2 style="color: #df8080; text-align: center; font-style: italic;">You are using an outdated version of Internet Explorer.  For security reasons and better user experience you should upgrade your browser. Please go to Windows Updates and install the latest version.</h2>
+	<![endif]-->
+</head>
+<body>
+
+<div class="main-container">	
+	
+	<header>
+		<section id="header">
+			<h1>SITENAME</h1>
+
+			<nav id="main-nav">
+				<ul>
+					<li><a href="#header">HOME</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#services">SERVICES</a></li>
+					<li><a href="#projects">PROJECTS</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</nav><!-- /main-nav -->
+			<div class="carousel">
+				<img src="img/header-bg.jpg" alt="">
+			</div>
+		</section><!-- /section -->
+	</header><!-- /header -->
+
+	<section id="about">
+		<div class="wrapper">
+			<div class="col-span-6" id="left-info-section">
+				<h1>Morbi in sem lorem<br> placerat ornare Pellente</h1>
+				<h2>euismod in, pharetra ultricies<br>Crasconsequat vavimus sup<br>sompurkoi varsit</h2>
+				<button class="btn">MORE INFO</button>
+			</div>
+			<div class="col-span-6" id="right-info-section">
+				<p class="underline">Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus lorem ipsum dolor</p>
+				<p>vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.</p>
+				<p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integeralesuada.</p>
+			</div>
+		</div><!-- /wrapper -->
+	</section><!-- /about -->
+	
+	<section id="services">
+		<div class="wrapper">
+			<div class="col-span-3">
+				<img src="img/ie_man.png" alt="services-icon">
+				<div class="desc">
+					<h2>Cestibulum auct</h2>
+					<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
+					<button class="btn">MORE</button>
+				</div><!-- /desc -->
+			</div>
+			<div class="col-span-3">
+				<img src="img/ie_clock.png" alt="services-icon">
+				<div class="desc">
+					<h2>Vetae facillis</h2>
+					<p>Craesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum, tortor neque egestas</p>
+					<button class="btn">MORE</button>
+				</div><!-- /desc -->
+			</div>
+			<div class="col-span-3">
+				<img src="img/ie_ticket.png" alt="services-icon">
+				<div class="desc">
+					<h2>integre fusce</h2>
+					<p>Jraesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum.</p>
+					<button class="btn">MORE</button>
+				</div><!-- /desc -->
+			</div>
+		</div><!-- /wrapper -->
+	</section><!-- /services -->
+	
+	<section id="news-letter">
+		<h1>Morbi in sem lorem placerat</h1>
+		<h2>euismod in pharetra ultricies Crasconsequat vavimus sup</h2>
+		<form action="" id="news-letter-form">
+			<input type="text" id="email"><input type="submit" id="submit-btn" value="subscribe">	
+		</form>
+	</section><!-- /news-letter -->
+
+	<section id="projects">
+		<div class="wrapper">
+			<div class="col-span-12">
+				<!-- TO DO: build drop-down menu for max-width 860 -->
+				<nav id="projects-nav">
+					<button id="projects-nav-menu">
+						&#9776;
+					</button>
+					<ul id="nav-ul" class="nav-open">
+						<li><a href="#"><span id="flag"></span>Sed egest asteet</a></li>
+						<li><a href="#" class="active"><span id="water-drop"></span>Morbi interdum</a></li>
+						<li><a href="#"><span id="magnet"></span>Morbi interdum</a></li>
+					</ul>
+				</nav><!-- /projects-nav -->
+				<div id="projects-wrap">
+					<article class="project projects-divider" id="left-article">
+						<img src="img/image02.jpg" alt="honey">
+						<p>
+							Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis lorem ipsum dolor. 
+						</p>
+					</article><!-- /project -->
+
+					<article class="project" id="right-article">
+						<img src="img/image01.jpg" alt="honey">
+						<p>
+							Lorem, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis lorem ipsum dolor. 
+						</p>
+					</article><!-- /project -->
+				</div><!-- /projects-wrap -->
+			</div><!-- /col-span-12 -->
+		</div><!-- /wrapper -->
+	</section><!-- /projects -->
+
+	<section id="contact">
+		<div class="wrapper">
+			<div class="col-span-4" id="blog">
+				<h2>blog posts</h2>
+				<ul id="blog-posts">
+					<li class="blog-post">
+						<img src="img/blog_users/user01.png" alt="user-picture" class="user-pic">
+							<p class="date">Aug / 27 / 2013</p>
+							<a href="#"><h3 class="username">Gohn Doe</h3></a>
+							<p class="message">Labore, necessitatibus, vero illo nihil omnis similique hic ipsum iure officiis ducimus at quae alias dolorum sequi quis deserunt animi cum repudiandae? ...</p>
+					</li>
+					<li class="blog-post">
+						<img src="img/blog_users/user02.png" alt="user-picture" class="user-pic">
+						<p class="date">Aug / 27 / 2013</p>
+						<a href="#"><h3 class="username">Gohn Doe</h3></a>
+						<p class="message">Praesent dapibus, neque id cursus faucibus, tortor Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, illo, non perspicia ...</p>
+					</li>
+					<li class="blog-post last-child">
+						<img src="img/blog_users/user03.png" alt="user-picture" class="user-pic">
+						<p class="date">Aug / 27 / 2013</p>
+						<a href="#"><h3 class="username">Gohn Doe</h3></a>
+						<p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, labore, unde nemo dolorem quo nostrum non aperiam aliquam aspernatur officiis ...</p>
+					</li>
+				</ul>
+			</div><!-- /blog -->
+
+			<div class="col-span-4" id="twitter">
+				<h2>twitter</h2>
+				<ul id="twitter-posts">
+					<li class="tweet">
+						<a href="#" class="twitter-user">@rafimit</a>
+						<p class="message">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+					</li>
+					<li class="tweet">
+						<span class="twitter-icon"></span>
+						<a href="#" class="twitter-user">@johndoe</a>
+						<p class="message">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+					</li>
+					<li class="tweet">
+						<a href="#" class="twitter-user">@amanda</a>
+						<p class="message">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+					</li>
+					<li class="tweet">
+						<a href="#" class="twitter-user">@peter</a>
+						<p class="message">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+					</li>
+				</ul>
+			</div>
+
+
+			<div class="col-span-6" id="contact-info">
+				<h2>quick contact</h2>
+				
+				<div id="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.369678637078!2d24.740823799999994!3d42.14237539999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14acd1b7a72a0323%3A0x17e5c6e71d458485!2z0LHRg9C70LXQstCw0YDQtCDigJ7QoNGD0YHQutC44oCcIDUw!5e0!3m2!1sbg!2s!4v1400836930640" width="600" height="450" frameborder="0" style="border:0"></iframe>
+				</div>
+
+				<h3><span>Address:</span></h3>
+				<h3>Building name, some street name, some city name, country</h3>
+
+				<p>info@sitename.com  /  (000)  888 888 8888</p>
+			</div>
+		</div><!-- /wrapper -->
+	</section><!-- /contact -->
+
+	<footer>
+		<section id="footer">
+			<div class="col-span-12">
+				<h3>Copyright(c) website name. <span>Designed by: www.alltemplateneeds.com</span>/ Images from: http://wallpaperswide.com/ www.photorack.net</h3>
+			</div>
+		</section>	
+	</footer><!-- /footer -->
+
+</div><!-- /main-container -->
+
+<script src="js/javascript.js"></script>
+</body>
+</html>
